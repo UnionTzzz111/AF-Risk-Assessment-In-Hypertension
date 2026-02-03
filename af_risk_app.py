@@ -64,7 +64,7 @@ def load_pretrained_model_and_params():
 
 # --- Streamlit App Layout ---
 st.set_page_config(
-    page_title="AF Risk Prediction",
+    page_title="AF Risk A",
     page_icon="❤️",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -164,4 +164,5 @@ st.markdown("---") # This markdown separator is now standalone, as all content b
 # ===========================
 # "About This Application" SECTION HAS BEEN COMPLETELY REMOVED
 # ===========================
+
 
