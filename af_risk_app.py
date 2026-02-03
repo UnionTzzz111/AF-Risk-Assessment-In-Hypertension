@@ -64,7 +64,7 @@ def load_pretrained_model_and_params():
 
 # --- Streamlit App Layout ---
 st.set_page_config(
-    page_title="AF Risk A",
+    page_title="AF Risk Assessment",
     page_icon="❤️",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -73,7 +73,7 @@ st.set_page_config(
 # Load model and parameters at the start
 xgboost_classifier_model, feature_scaler, xgboost_optimal_threshold, feature_stats = load_pretrained_model_and_params()
 
-st.title("AF Risk Prediction App")
+st.title("AF Risk Assessment App")
 st.markdown("""
 This application helps assess the risk of Atrial Fibrillation (AF) based on patient features.
 Please input the patient's data in the sidebar to get a personalized risk assessment.
@@ -164,5 +164,6 @@ st.markdown("---") # This markdown separator is now standalone, as all content b
 # ===========================
 # "About This Application" SECTION HAS BEEN COMPLETELY REMOVED
 # ===========================
+
 
 
