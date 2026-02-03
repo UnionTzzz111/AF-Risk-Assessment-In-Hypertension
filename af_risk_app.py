@@ -145,7 +145,6 @@ if st.sidebar.button("Assess AF Risk", type="primary"): # Changed button text fr
 
     st.subheader("Assessment Results") # Changed subheader
     st.markdown(f"**Patient AF Risk Probability:** `{prediction_proba:.4f}`")
-    st.markdown(f"**Optimal Classification Threshold:** `{xgboost_optimal_threshold:.4f}`")
 
     if prediction_class == 1:
         st.error("⚠️ **Assessment:** High Risk of Atrial Fibrillation (AF)") # Changed "Prediction" to "Assessment"
@@ -164,6 +163,7 @@ st.markdown("---") # This markdown separator is now standalone, as all content b
 # ===========================
 # "About This Application" SECTION HAS BEEN COMPLETELY REMOVED
 # ===========================
+
 
 
 
