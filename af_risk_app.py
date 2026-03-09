@@ -28,7 +28,7 @@ feature_name_display_map = {
     'LAD': 'LAD (mm) - Left Atrial Diameter',
     'RAD': 'RAD (mm) - Right Atrial Diameter',
     'Age': 'Age (Years)',
-    'AOD': 'AOD (Years) - Age of Disease Onset',
+    'AOD': 'AOD (mm) - Age of Disease Onset',
     'LVPW': 'LVPW (mm) - Left Ventricular Posterior Wall Thickness',
     'Gender': 'Gender',
     'AF': 'Atrial Fibrillation (AF)'
@@ -163,6 +163,7 @@ st.markdown("---") # This markdown separator is now standalone, as all content b
 # ===========================
 # "About This Application" SECTION HAS BEEN COMPLETELY REMOVED
 # ===========================
+
 
 
 
