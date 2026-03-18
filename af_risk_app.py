@@ -28,7 +28,7 @@ feature_name_display_map = {
     'LAD': 'LAD (mm) - Left Atrial Diameter',
     'RAD': 'RAD (mm) - Right Atrial Diameter',
     'Age': 'Age (Years)',
-    'AOD': 'AOD (mm) - Age of Disease Onset',
+    'AOD': 'AOD (mm) - Aortic Diameter',
     'LVPW': 'LVPW (mm) - Left Ventricular Posterior Wall Thickness',
     'Gender': 'Gender',
     'AF': 'Atrial Fibrillation (AF)'
